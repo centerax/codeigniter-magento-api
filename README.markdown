@@ -30,7 +30,7 @@ How about getting a list (PHP array) of all customer groups?
 
     var_dump( $this->mage_api->customer_group_list() );
 
-The "magic" is that customer_group_list is translated tp customer_group.list API call and so on with all the methods on the API.
+The "magic" is that _customer_group_list_ is translated to _customer_group.list_ API call and so on with all the methods on the API.
 
 ## Change Log
 
