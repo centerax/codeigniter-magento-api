@@ -21,12 +21,12 @@ So you don't need to worry about instantiating SOAP or anything.
 A few examples below.
 
 Want to update a product?
-`$this->load->spark('mage-api/0.0.1');`
-`$update = array('name'=>'New Name');`
-`var_dump( $this->mage_api->product_update( 'product_sku', $update ) );`
+    $this->load->spark('mage-api/0.0.1');
+    $update = array('name'=>'New Name');
+    var_dump( $this->mage_api->product_update( 'product_sku', $update ) );
 
 How about getting a list (PHP array) of all customer groups?
-`var_dump( $this->mage_api->customer_group_list() );`
+    var_dump( $this->mage_api->customer_group_list() );
 
 The "magic" is that customer_group_list is translated tp customer_group.list API call and so on with all the methods on the API.
 
