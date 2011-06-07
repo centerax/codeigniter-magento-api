@@ -1,16 +1,16 @@
 <?php defined('BASEPATH') OR exit('No direct script access allowed');
 /**
- * CodeIgniter REST Class
+ * CodeIgniter Magento API connector
  *
- * Mske REST requests to RESTful services with simple syntax.
+ * Make Magento SOAP API calls easily with this API class
  *
  * @package        	CodeIgniter
  * @subpackage    	Libraries
  * @category    	Libraries
  * @author        	Pablo S. Benitez
  * @created			06/06/2011
- * @license         http://pablobenitez.com/code/dbad-license
- * @link			http://getsparks.org/packages/mageapi/show
+ * @license         http://www.opensource.org/licenses/mit-license.html
+ * @link			http://getsparks.org/packages/mage-api/show
  */
 
 class Mage_api
