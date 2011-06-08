@@ -7,7 +7,8 @@ One library, one config file and that is it!
 
 1. PHP 5.1+
 2. CodeIgniter Reactor 2.0
-3. [PHP-SOAP](http://www.php.net/soap)
+3. Magento installation
+4. [PHP-SOAP](http://www.php.net/soap)
 
 ## Usage
 
