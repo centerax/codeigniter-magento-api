@@ -1,4 +1,4 @@
-# CodeIgniter Magentp API Spark
+# CodeIgniter Magento API Spark
 
 This spark facilitates the access to all [Magento](http://www.magentocommerce.com/) Core API resources and methods.
 One library, one config file and that is it!
