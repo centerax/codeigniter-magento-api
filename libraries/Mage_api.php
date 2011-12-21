@@ -89,7 +89,7 @@ class Mage_api
 		}catch(Exception $ex){
 
 			log_message('error', $ex->getMessage());
-			show_error($this->_error_msg($soap_ex->getMessage()));
+			show_error($this->_error_msg($ex->getMessage()));
 
 		}
 	}
